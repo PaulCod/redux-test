@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.root {
+  display: grid;
+  grid-template-areas: "header header" "main main" "footer footer";
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
